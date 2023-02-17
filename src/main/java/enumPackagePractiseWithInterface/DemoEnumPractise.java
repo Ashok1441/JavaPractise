@@ -1,4 +1,4 @@
-package enumPackagePractise;
+package enumPackagePractiseWithInterface;
 
 public interface DemoEnumPractise {
 

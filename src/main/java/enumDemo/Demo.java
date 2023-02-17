@@ -1,14 +1,16 @@
 package enumDemo;
 
-public class Demo {
-	
-	public static void demo1(String name ) {
-		
-		
-		System.out.println(name);
-	}
+import enumDemo.Enum.data;
 
+public class Demo {
+		
 	public static void main(String[] args) {
-		Demo.demo1("ashok");
+		System.out.println(data.ASHOK.getNumber());
+
+		for(data singleData:data.values()) {
+			System.out.print(singleData.getNumber());
+			System.out.print(" ,");
+			System.out.println(singleData.getMailId());
+		}
 	}
 }
