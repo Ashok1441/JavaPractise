@@ -11,7 +11,7 @@ package oopsConcepts_PartTwo_interface;
  */
 public interface UsBank {
 
-	int minBlances=100;
+	final int minBlances=100;
 	
 	public void savingAccount();
 	public void salaryAccount();
